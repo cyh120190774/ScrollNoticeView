@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollNoticeView">
+        <!-- 图标 -->
+        <attr name="nsvIcon" format="reference" />
+        <!-- 图标与内容的间隙 -->
+        <attr name="nsvIconPadding" format="dimension" />
+        <!-- 图标颜色 -->
+        <attr name="nsvIconTint" format="color" />
+        <!-- 文本尺寸 -->
+        <attr name="nsvTextSize" format="dimension" />
+        <!-- 文本颜色 -->
+        <attr name="nsvTextColor" format="color" />
+        <!-- 文本最大行数 -->
+        <attr name="nsvTextMaxLines" format="integer" />
+
+        <!-- 切换动画间隔时间，毫秒 -->
+        <attr name="nsvInterval" format="integer" />
+        <!-- 切换动画持续时间，毫秒 -->
+        <attr name="nsvDuration" format="integer" />
+        <!-- 文字滚动速度 负数为向右-->
+        <attr name="nsvSpeed" format="integer" />
+        <!-- 文字开始滚动的延时-->
+        <attr name="nsvDelay" format="integer" />
+
+
+    </declare-styleable>
+
+
+</resources>

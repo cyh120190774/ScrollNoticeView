@@ -22,8 +22,6 @@
         <attr name="nsvSpeed" format="integer" />
         <!-- 文字开始滚动的延时-->
         <attr name="nsvDelay" format="integer" />
-
-
     </declare-styleable>
 
 
